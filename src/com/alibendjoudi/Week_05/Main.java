@@ -32,6 +32,8 @@ class AddressBook
             if (entry.name.equals(name))
             {
                 return entry.email;
+
+                
             }
         }
         return null;
